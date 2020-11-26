@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    margin: 1px;
+}
+
+.calendar{
+    padding-top: 10px;
+    display: flex;
+}
+
+.input-group{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    padding-left: 2px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.form-group{
+    padding-right: 15px;
+    outline: none !important;
+    border: none !important;
+}
+
+.form-control{
+    padding-left: 5px;
+    opacity: 0.6;
+}
+
+.form-check{
+    padding-bottom: 15px;
+}
+
+.date{
+    border-bottom: 1px solid rgb(219, 218, 218);
+    padding-top: 5px;
+}
+
+.list{
+    border-top: 1px solid rgb(219, 218, 218);
+    /* padding-bottom: 15px; */
+}
+
+.card-main, .card-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;    
+}
+
+.card-body{
+    padding: 0 40px;
+}
+
+.card-body-spends{
+    padding: 0 15px;
+}
+
+.card-list{
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.fas{
+    font-size: small;
+}
