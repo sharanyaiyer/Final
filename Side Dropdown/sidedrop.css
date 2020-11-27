@@ -7,10 +7,18 @@
     margin: 1px;
 }
 
+.close .fa-times{
+    font-size: 18px;
+}
+
 .calendar{
     padding-top: 10px;
     display: flex;
 }
+
+.accordion .collapsed .fa-chevron-down:before{ 
+    content: "\f077";
+} 
 
 .input-group{
     padding: 0;
